@@ -1,7 +1,21 @@
 # assets builder
-    assets资源编译生成id
 
+# Use this package as a library
+Add this to your package's pubspec.yaml file:
+## 1. Depend on it
+    dev_dependencies:
+        assets_builder:
+            git:
+                url: https://github.com/kecson/assets_builder.git
 
-## Getting Started
-    使用命令： flutter pub run  assets_builder ，即可生成资源 lib/generated/assets.dart
+## 2. Install it   
+    flutter pub get   
+## 3. generate assets dart file      
+    flutter pub run  assets_builder 
+## 4. 3. Import it
+Now in your Dart code, you can use:
 
+    import 'generated/assets.dart';
+    
+    //use  image
+    Image(image: AssetImage(Assets.images_ic_launcher_png))
