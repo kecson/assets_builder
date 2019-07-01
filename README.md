@@ -12,7 +12,7 @@ Add this to your package's pubspec.yaml file:
     flutter pub get   
 ## 3. generate assets dart file      
     flutter pub run  assets_builder 
-## 4. 3. Import it
+## 4. Import it
 Now in your Dart code, you can use:
 
     import 'generated/assets.dart';
