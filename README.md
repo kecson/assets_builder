@@ -1,4 +1,4 @@
-# assets builder
+# flutter assets builder
 
 # Use this package as a library
 Add this to your package's pubspec.yaml file:
